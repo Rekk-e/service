@@ -3,7 +3,7 @@
 
 Rename ".env_example"
 
-Enter the command in root
+Build and run service
 ```yaml
 docker-compose up --build
 ```
