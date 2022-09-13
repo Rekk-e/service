@@ -1,7 +1,7 @@
 # Smartway_service
 ## How to start
 
-Rename ".env_example"
+Rename ".env_example" to ".env"
 
 Build and run service
 ```yaml
