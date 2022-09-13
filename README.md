@@ -7,9 +7,11 @@ Enter the command in root
 ```yaml
 docker-compose up --build
 ```
-# Queries
+## Queries
 
-Add worker
+# Add worker
+
+Url
 ```yaml
 /add_worker
 ```
@@ -32,7 +34,9 @@ Body
 }
 ```
 
-Delete worker
+# Delete worker
+
+Url
 ```yaml
 /delete_worker/{id}
 
