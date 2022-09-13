@@ -13,25 +13,28 @@ Add worker
 ```yaml
 /add_worker
 ```
-Fields
+Body
 ```yaml
 {
-Id int
-Name string
-Surname string
-Phone string
-CompanyId int
-Passport {
-Type string
-Number string
+  Id int,
+  Name string,
+  Surname string,
+  Phone string,
+  CompanyId int,
+  Passport {
+    Type string
+    Number string
+  },
+  Department {
+    Name string
+    Phone string
+  }
 }
-Department {
-Name string
-Phone string
-}
-}
-
 ```
+
+Delete worker
+```yaml
+/delete_worker/{id}
 
 
 
