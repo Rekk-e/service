@@ -14,7 +14,7 @@ import (
 
 // INICIALIZING
 
-func InitDB() sql.DB {
+func InitDB() *sql.DB {
 	var config smcfg.Config
 	config = smcfg.Init_config()
 	connString := fmt.Sprintf(
@@ -27,7 +27,7 @@ func InitDB() sql.DB {
 		log.Fatal(err)
 	}
 	fmt.Println("Database connected")
-	return *database
+	return database
 }
 
 func CreateWorkerTable(DB sql.DB) {
