@@ -14,14 +14,24 @@ Add worker
 /add_worker
 ```
 Fields
-- Id int
-- Name string
-- Surname string
-- Phone string
-- CompanyId int
-- Passport {
-- Type string
-- Number string
+```yaml
+{
+Id int
+Name string
+Surname string
+Phone string
+CompanyId int
+Passport {
+Type string
+Number string
+}
+Department {
+Name string
+Phone string
+}
+}
+
+```
 
 
 
