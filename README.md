@@ -16,16 +16,18 @@ docker-compose up --build
 Body
 ```yaml
 {
-  Id int,
+  id int,
   Name string,
   Surname string,
   Phone string,
   CompanyId int,
   Passport {
+    id int
     Type string
     Number string
   },
   Department {
+    id int
     Name string
     Phone string
   }
@@ -60,16 +62,18 @@ Body
 Body
 ```yaml
 {
-  Id int,
+  id int,
   Name string,
   Surname string,
   Phone string,
   CompanyId int,
   Passport {
+    id int
     Type string
     Number string
   },
   Department {
+    id int
     Name string
     Phone string
   }
